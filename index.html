@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>codedamn Project</title>
+        <link rel="stylesheet" href="styles.css">
+        <script src="https://kit.fontawesome.com/87f063257c.js" crossorigin="anonymous"></script>
+	</head>
+	<body>
+		<!-- start writing your code -->
+        <!--header-->
+        <header id="header-base" class="bg-white">
+            <div class="header">
+            <img src="images/logo.png" alt="logo" class="padding-05">
+            <!-- <div > -->
+                <button type="button" class="padding-10" id="searchbtn">Search</button>
+            <!-- </div> -->
+            <div class="head-icon">
+                <a class="padding-05" href="#"><i class="fa-solid fa-house"></i></a>
+                
+                <a class="padding-05" href="#" id="notif">
+                    <i class="fa-brands fa-facebook-messenger"></i>
+                    <div id="notification">2</div>
+                </a>
+
+                <a class="padding-05" href="#"><i class="fa-regular fa-square-plus"></i></a>
+                <a class="padding-05" href="#"><i class="fa-sharp fa-regular fa-compass"></i></a>
+                <a class="padding-05" href="#"><i class="fa-regular fa-heart"></i></a>
+                <a href="#menulist" class="profile-img padding-05"><img src="images/profile.jpg" alt="profile pic" class="profile-img" id="profile" ></a>
+                <div id="menulist" class="hide">
+                    <table>
+                        <tr>
+                            <td><i class="fa-regular fa-circle-user"></i> Profile</td>
+                        </tr>
+                        <tr>
+                            <td>Log Out</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            </div>
+        </header>
+        <main>
+            <section id="content">
+                <div id="story-section" class="bg-white m-top">
+                    <div class="story">
+                        <div class="user-bg story-size">
+                            <img src="images/user-1.jpeg">  
+                        </div>
+                        <figcaption>Zack</figcaption>
+                    </div>
+                    <div class="story">
+                        <div class="user-bg story-size">
+                            <img src="images/user-2.jpeg">  
+                        </div>
+                        <figcaption>Cody</figcaption>
+                    </div>
+                    <div class="story">
+                        <div class="user-bg story-size">
+                            <img src="images/user-3.jpeg">  
+                        </div>
+                        <figcaption>Monica</figcaption>
+                    </div>
+                    <div class="story">
+                        <div class="user-bg story-size">
+                            <img src="images/user-4.jpeg">  
+                        </div>
+                        <figcaption>Joey</figcaption>
+                    </div>
+                    <div class="story">
+                        <div class="user-bg story-size">
+                            <img src="images/user-5.jpeg">  
+                        </div>
+                        <figcaption>Chandler</figcaption>
+                    </div>
+                </div>
+                <div id="post-section">
+                    <!--post1-->
+                    <div class="post bg-white m-top">
+                        <div class="items-align profileDet">
+                            <div class="user-det">
+                                <div class="user-bg prof-size">
+                                    <img src="images/user-1.jpeg">
+                                </div>
+                                <span class="padding-05">Zack</span>
+                            </div>
+                            <i class="fa-solid fa-ellipsis color-grey"></i>
+                        </div>
+                        <img src="images/post-1.jpg" class="post-img" alt="post1">
+                        <div class="items-align">
+                            <div>
+                                <i class="fa-regular fa-heart spacebtwn"></i>
+                                <i class="fa-regular fa-comment fa-flip-horizontal spacebtwn"></i>
+                                <i class="fa-regular fa-paper-plane spacebtwn"></i>
+                            </div>
+                            <div>
+                                <i class="fa-regular fa-bookmark"></i>
+                            </div>
+                        </div>
+                        <div class="caption">
+                            <b>zack</b>
+                            <span>Best days of our life</span>
+                        </div>
+                        <div class="items-align comment">
+                            <a><i class="fa-regular fa-face-smile"></i></a>
+                            <form class="items-align w-100">
+                                <input type="text" placeholder="Add a comment" class="comment-box w-100">
+                                <input type="submit" value="Post" class="post-btn bg-white">
+                            </form>
+                        </div>
+                    </div>
+                </div>
+
+                <!--post2-->
+                <div class="post bg-white m-top">
+                        <div class="items-align profileDet">
+                            <div class="user-det">
+                                <div class="user-bg prof-size">
+                                    <img src="images/user-2.jpeg">
+                                </div>
+                                <span class="padding-05">Cody</span>
+                            </div>
+                            <i class="fa-solid fa-ellipsis color-grey"></i>
+                        </div>
+                        <img src="images/post-2.jpg" class="post-img" alt="post1">
+                        <div class="items-align">
+                            <div>
+                                <i class="fa-regular fa-heart spacebtwn"></i>
+                                <i class="fa-regular fa-comment fa-flip-horizontal spacebtwn"></i>
+                                <i class="fa-regular fa-paper-plane spacebtwn"></i>
+                            </div>
+                            <div>
+                                <i class="fa-regular fa-bookmark"></i>
+                            </div>
+                        </div>
+                        <div class="caption">
+                            <b>cody</b>
+                            <span>Nice</span>
+                        </div>
+                        <div class="items-align comment">
+                            <a><i class="fa-regular fa-face-smile"></i></a>
+                            <form class="items-align w-100">
+                                <input type="text" placeholder="Add a comment" class="comment-box w-100">
+                                <input type="submit" value="Post" class="post-btn bg-white">
+                            </form>
+                        </div>
+                    </div>
+
+                    <!--post3-->
+                    <div class="post bg-white m-top">
+                        <div class="items-align profileDet">
+                            <div class="user-det">
+                                <div class="user-bg prof-size">
+                                    <img src="images/user-4.jpeg">
+                                </div>
+                                <span class="padding-05">Joey</span>
+                            </div>
+                            <i class="fa-solid fa-ellipsis color-grey"></i>
+                        </div>
+                        <img src="images/post-3.jpg" class="post-img" alt="post1">
+                        <div class="items-align">
+                            <div>
+                                <i class="fa-regular fa-heart spacebtwn"></i>
+                                <i class="fa-regular fa-comment fa-flip-horizontal spacebtwn"></i>
+                                <i class="fa-regular fa-paper-plane spacebtwn"></i>
+                            </div>
+                            <div>
+                                <i class="fa-regular fa-bookmark"></i>
+                            </div>
+                        </div>
+                        <div class="caption">
+                            <b>joey</b>
+                            <span>Nice</span>
+                        </div>
+                        <div class="items-align comment">
+                            <a><i class="fa-regular fa-face-smile"></i></a>
+                            <form class="items-align w-100">
+                                <input type="text" placeholder="Add a comment" class="comment-box w-100">
+                                <input type="submit" value="Post" class="post-btn bg-white">
+                            </form>
+                        </div>
+                    </div>
+
+                    <!--post4-->
+                    <div class="post bg-white m-top">
+                        <div class="items-align profileDet">
+                            <div class="user-det">
+                                <div class="user-bg prof-size">
+                                    <img src="images/user-5.jpeg">
+                                </div>
+                                <span class="padding-05">Chandler</span>
+                            </div>
+                            <i class="fa-solid fa-ellipsis color-grey"></i>
+                        </div>
+                        <img src="images/post-4.jpg" class="post-img" alt="post1">
+                        <div class="items-align">
+                            <div>
+                                <i class="fa-regular fa-heart spacebtwn"></i>
+                                <i class="fa-regular fa-comment fa-flip-horizontal spacebtwn"></i>
+                                <i class="fa-regular fa-paper-plane spacebtwn"></i>
+                            </div>
+                            <div>
+                                <i class="fa-regular fa-bookmark"></i>
+                            </div>
+                        </div>
+                        <div class="caption">
+                            <b>chandler</b>
+                            <span>Nice</span>
+                        </div>
+                        <div class="items-align comment">
+                            <a><i class="fa-regular fa-face-smile"></i></a>
+                            <form class="items-align w-100">
+                                <input type="text" placeholder="Add a comment" class="comment-box w-100">
+                                <input type="submit" value="Post" class="post-btn bg-white">
+                            </form>
+                        </div>
+                    </div>
+            </section>
+            <aside class="m-top">
+                <div class="m-top m-bottom suggest-head">
+                    <span class="col-grey">Suggestions For You</span>
+                </div>
+                <!--sugg1-->
+                <div class="suggest-container m-top">
+                    <div class="profile-det">
+                        <img src="images/user-1.jpeg" class="suggest-pic">
+                        <div class="suggest-desc">
+                            <span><b>Zack</b></span>
+                            <br/>
+                            <span class="col-grey">Follows You</span>
+                        </div>
+                    </div>
+                    <button class="post-btn bg-dark">Follow</button>
+                </div>
+
+                <!--sugg2-->
+                <div class="suggest-container m-top">
+                    <div class="profile-det">
+                        <img src="images/user-2.jpeg" class="suggest-pic">
+                        <div class="suggest-desc">
+                            <span><b>Cody</b></span>
+                            <br/>
+                            <span class="col-grey">Follows You</span>
+                        </div>
+                    </div>
+                    <button class="post-btn bg-dark">Follow</button>
+                </div>
+
+                <!--sugg3-->
+                <div class="suggest-container m-top">
+                    <div class="profile-det">
+                        <img src="images/user-3.jpeg" class="suggest-pic">
+                        <div class="suggest-desc">
+                            <span><b>Monica</b></span>
+                            <br/>
+                            <span class="col-grey">Follows You</span>
+                        </div>
+                    </div>
+                    <button class="post-btn bg-dark">Follow</button>
+                </div>
+
+                <!--sugg4-->
+                <div class="suggest-container m-top">
+                    <div class="profile-det">
+                        <img src="images/user-4.jpeg" class="suggest-pic">
+                        <div class="suggest-desc">
+                            <span><b>Joey</b></span>
+                            <br/>
+                            <span class="col-grey">Follows You</span>
+                        </div>
+                    </div>
+                    <button class="post-btn bg-dark">Follow</button>
+                </div>
+
+                <!--sugg5-->
+                <div class="suggest-container m-top">
+                    <div class="profile-det">
+                        <img src="images/user-5.jpeg" class="suggest-pic">
+                        <div class="suggest-desc">
+                            <span><b>Chandler</b></span>
+                            <br/>
+                            <span class="col-grey">Follows You</span>
+                        </div>
+                    </div>
+                    <button class="post-btn bg-dark">Follow</button>
+                </div>
+            </aside>
+        </main>
+
+        <script type="text/javascript" src="script.js"></script>
+	</body>
+</html>
